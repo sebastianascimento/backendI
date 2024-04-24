@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aula6"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "eticbot/*py}
+
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+py-cord = "^2.5.0"
+
+[tool.poetry.scripts]
+bot = "eticbot.app:bot
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,11 @@
+version: 'latest'
+services:
+  app:
+    build: 
+      context: 
+      dockerfile: dockerfile
+    command: bash
+    volumes:
+      - .:/workspace
+
+  
